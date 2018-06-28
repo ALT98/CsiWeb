@@ -1,0 +1,160 @@
+body{
+    font-family: serif;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+}
+
+input{
+    border-style: groove;
+    border-radius: 7px;
+    width: 20%;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    width: 100%;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: left;
+    padding-left: 2%;
+}
+
+#packDepartamento{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packNombre{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packSalario{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packApellido{
+    padding-left: 38%;
+    width: 100%;
+    min-width: 100px;
+    height: 1%;
+}
+
+#packEdad{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packEstatura{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packPeso{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+#packBeca{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packCuota{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packCarrera{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packNumMaestros{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packNumMaterias{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packNumAlum{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+#packNumAulas{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+#eleccion{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#buttonFalso{
+    margin: 1%;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#buttonFalso:hover{
+    background-color: rgba(0, 0, 0, 0.274);
+    cursor: pointer;
+}
+
+#header{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+#padre{
+    padding-top: 2%;
+    border-radius: 20px;
+    padding-bottom: 2%;
+    background-color: rgba(0, 0, 0, 0.377);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#Adminstrativo{
+    display: none;
+}
+
+#Alumno{
+    display: none;
+}
+#Maestro{
+    display: none;
+}

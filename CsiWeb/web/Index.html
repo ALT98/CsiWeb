@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/file.js"></script>
+    <title>Administrativo</title>
+</head>
+
+<body background="img/wood.jpg">
+    <div id="padre">
+        <h1 id="header">Datos del administrativo</h1>
+        <form action="servletTransfer">
+
+            <div id="packNombre">
+                <label for="nombre">Nombre </label>
+                <input type="text" maxlength="10" id="nombre" name = "nombre" placeholder="Ingresa tu nombre...">
+            </div>
+            <br>
+            <div id=packApellido>
+                <label for="apellido">Apellido </label>
+                <input type="text" id="apellido" maxlength="15" name = "apellido" placeholder="Ingresa tu apellido...">
+            </div>
+            <br>
+            <div id="packEdad">
+                <label for="edad">Edad </label>
+                <input type="number" min="1" max="80" id="edad" maxlength="3" name = "edad" placeholder="Ingresa tu edad...">
+            </div>
+            <br>
+            <div id="packEstatura">
+                <label for="estatura">Estatura </label>
+                <input type="number" id="estatura" max="2.50" step="any" name= "estatura" placeholder="Ingresa tu estatura...">
+            </div>
+            <br>
+            <div id="packPeso">
+                <label for="peso">Peso </label>
+                <input type="number" max="120" min="5" id="peso" step="any" maxlength="3" name = "peso" placeholder="Ingresa tu peso...">
+            </div>
+            <br>
+            <div id="eleccion">
+                <label for="select">Selecciona una opcion: </label>
+                <select name="select" id="choose" autofocus onchange="esconder();">
+                    <option value="administrativo">Administrativo</option>
+                    <option value="alumno">Alumno</option>
+                    <option value="maestro">Maestro</option>
+                </select>
+            </div>
+            <br>
+            <div id="Administrativo">
+                    <div id="packDepartamento">
+                        <label for="dept">Departamento </label>
+                        <input type="text" id="dept" maxlength="20" name = "departamento" placeholder="Ingresa tu departamento...">
+                    </div>
+                    <br>
+                    <div id="packSalario">
+                        <label for="salario">Salario </label>
+                        <input type="number" id="salario" step="any" name="salario" placeholder="Ingresa tu salario...">
+                    </div>
+                    <br>
+            </div>
+            <div id="Alumno">
+                <div id="packCarrera">
+                    <label for="carrera">Carrera </label>
+                    <input type="text" id="carrera" maxlength="7" placeholder="Ingresa tu carrera...">
+                </div>
+                <br>
+                <div id="packBeca">
+                    <label for="beca">Beca </label>
+                    <input type="number" id="beca" max="1.0" min="0" step="any" placeholder="Ingresa la beca...">
+                </div>
+                <br>
+                <div id="packNumMaterias">
+                    <label for="numMat">Numero de materias </label>
+                    <input type="number" id="numMat" max="7" min="3" placeholder="Ingresa el # de materias...">
+                </div>
+                <br>
+                <div id="packNumMaestros">
+                    <label for="numMaestros">Numero de maestros </label>
+                    <input type="number" id="numMaestros" max="7" min="1" placeholder="Ingresa el # de maestros...">
+                </div>
+                <br>
+                <div id="packCuota">
+                    <label for="cuota">Cuota interna </label>
+                    <input type="number" id="cuota" step="any" placeholder="Ingresa la cuota interna">
+                </div>
+            </div>
+            <div id=Maestro>
+                <div id=packNumAlum>
+                    <label for="numAlum">Numero de alumnos </label>
+                    <input id="numAlum" type="number" max="200" min="15" placeholder="Ingresa el numero de alumnos...">
+                </div>
+                <br>
+                <div id="packNumAulas">
+                    <label for="numAulas">Numero de salones </label>
+                    <input type="number" id="numAulas" max="20" min="1" placeholder="Ingresa el numero de salones...">
+                </div>
+                <br>
+                <div id="packSalario">
+                    <label for="salario">Salario </label>
+                    <input id="salario" type="number" placeholder="Ingresa tu salario...">
+                </div>
+            </div>
+            <br>
+            <div id="buttonFalso">
+                <input type="submit" value="enviar">
+            </div>
+        </form>
+    </div>
+    <footer>Andrés Luévano Torres - 2018</footer>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+body{
+    font-family: serif;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+    background-color: azure;
+}
+
+input{
+    border-style: groove;
+    border-radius: 7px;
+    width: 20%;
+}
+
+footer{
+    position: sticky;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: left;
+    padding-left: 2%;
+}
+
+#packNombre{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packApellido{
+    padding-left: 38%;
+    width: 100%;
+    min-width: 100px;
+    height: 1%;
+}
+
+#packEdad{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packEstatura{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packPeso{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packBeca{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packCuota{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packCarrera{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packNumMaestros{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#packNumMaterias{
+    padding-left: 38%;
+    width: 100%;
+    height: 1%;
+}
+
+#buttonFalso{
+    margin: 1%;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0.6);
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#buttonFalso:hover{
+    background-color: rgba(255, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+#padre{
+    align-content: center;
+    border-radius: 15px;
+    background-color: #fad4d4;
+    padding: 4%;
+    padding-top: 5%;
+    padding-left: 3%;
+    margin-bottom: 7%;
+}
+
+#header{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 3%;
+    background-color: rgba(255, 0, 0, 0.2);
+}
